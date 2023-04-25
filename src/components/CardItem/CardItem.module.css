@@ -1,0 +1,129 @@
+.container {
+    width: 340px;
+    height: 410px;
+    padding: 20px 20px 30px 20px;
+    background: linear-gradient(114.99deg,
+            #471ca9 -0.99%,
+            #5736a3 54.28%,
+            #4b2a99 78.99%);
+    box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+
+}
+
+.cardHeader {
+    background-image: url('../../images/header_card.png');
+    background-repeat: no-repeat;
+    height: 168px;
+}
+
+.goItLogo {
+    width: 76px;
+}
+
+.avatarWrapper {
+    position: relative;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.avatarWrapper:before {
+    position: absolute;
+    top: 30px;
+    left: -20px;
+    content: "";
+    height: 8px;
+    width: 152px;
+    color: #ebd8ff;
+    background: #ebd8ff;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+        inset 0px -1.71846px 3.43693px #ae7be3,
+        inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+
+.avatarWrapper:after {
+    position: absolute;
+    top: 30px;
+    right: -20px;
+    content: "";
+    height: 8px;
+    width: 152px;
+    color: #ebd8ff;
+    background: #ebd8ff;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+        inset 0px -1.71846px 3.43693px #ae7be3,
+        inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+
+.avatarRing {
+    overflow: hidden;
+    object-fit: cover;
+    text-align: center;
+    width: 62px;
+    height: 62px;
+    box-shadow: 0px 4.39163px 4.39163px -4px rgba(0, 0, 0, 0.06),
+        0px 0px 10px 2px #ae7be3, 0px 0px 0px 8px #fbf8ff;
+    border-radius: 50%;
+}
+
+.avatarIcon {
+    width: 62px;
+}
+
+.infoWrapper {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.infoRecord {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ebd8ff;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.btnFollowersOn {
+    text-transform: uppercase;
+    color: rgba(55, 55, 55, 1);
+    background-color: #ebd8ff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 14px;
+    width: 196px;
+    border-radius: 10.3108px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+
+.btnFollowersOn:hover {
+    background: #5CD3A8;
+    color: rgba(55, 55, 55, 1);
+}
+
+.btnFollowersOff {
+    text-transform: uppercase;
+    color: rgba(55, 55, 55, 1);
+    background-color: #5CD3A8;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 14px;
+    width: 196px;
+    border-radius: 10.3108px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+
+.btnFollowersOff:hover {
+    background: #ebd8ff;
+    color: rgba(55, 55, 55, 1);
+}

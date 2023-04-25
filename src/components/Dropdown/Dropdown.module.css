@@ -1,0 +1,39 @@
+.btn {
+    border-radius: 7px;
+    text-align: center;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    background-color: #7f5eca;
+    color: #fff;
+    width: 197px;
+    height: 40px;
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 14px;
+    height: 21px;
+}
+
+.btn.isSelected {
+    background-color: #555;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #5736a3;
+    color: #fff;
+}
+
+.btn:active {
+    background-color: #555;
+    color: #eee;
+}
+
+
+.dropList {
+    position: absolute;
+    margin: auto;
+    border-radius: 17px;
+}

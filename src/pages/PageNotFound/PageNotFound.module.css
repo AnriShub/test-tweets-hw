@@ -1,0 +1,33 @@
+.container {
+    minHeight: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+
+.title {
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+}
+
+.btnPageNotFound {
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: rgb(25, 155, 47);
+    text-align: center;
+    font-family: 'Montserrat';
+
+    /* background-color: red; */
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 14px;
+    width: 196px;
+    border-radius: 10.3108px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
